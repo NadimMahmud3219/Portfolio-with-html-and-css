@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+.first{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #fd6e0a;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #fd6e0a;
+    transform: .4s;
+}
+
+.btn{
+    background-color: #fd6e0a;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius:30px;
+    transition: transfrom .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+    padding-top: 10%;
+    width: 50%;
+    color: whitesmoke;
+    padding-left: 8%;
+}
+
+.picture{
+ 
+    padding-top: 8%;
+    margin-right: 10%;
+
+}
+
+.picture img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.para{
+    margin-bottom: 60px;
+
+}
+.btn2{
+    background-color: #fd6e0a;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius:30px;
+    transition: transfrom .4s;
+}
+.btn2:hover{
+    transform: rotate(1.2);
+}
+
+.second{
+    /* height: 100vh; */
+    width: 100%;
+    background-color: #1A120B;
+
+}
+.third{
+    background-color: aquamarine;
+    padding: 5%;
+}
+.picture2 img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left:15%;
+    width: 400px;
+    height: 400px;
+}
+.Aboutme{
+    margin-right: 15%;
+    color: whitesmoke;
+    padding-left: 8%;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 9px;
+}
+
+.skills-card{
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: grey;
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+}
+
+.skills-card:hover{
+    background-color: lemonchiffon;
+}
+.ms{
+    background-color: #043428;
+    text-align: center;
+    color:white;
+}
+.contactOne{
+    background-color:aliceblue;
+    display: flex;
+    justify-content: space-around;
+    margin: 0% auto;
+}
+.fourth{
+    color: black;
+}
+.last{
+    background-color: aliceblue;
+    height: 300px;
+}
+.from{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0% auto;
+}
+.msg{
+    text-align: center;
+
+}
+.sub{
+   text-align: center; 
+   margin-top: 40px;
+
+}
